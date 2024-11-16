@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>858</width>
+    <width>859</width>
     <height>606</height>
    </rect>
   </property>
@@ -99,7 +99,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="label_2">
+       <widget class="QLabel" name="label_version">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
           <horstretch>0</horstretch>
@@ -108,12 +108,15 @@
         </property>
         <property name="maximumSize">
          <size>
-          <width>50</width>
+          <width>35</width>
           <height>12</height>
          </size>
         </property>
         <property name="text">
-         <string>ver 1.0.1</string>
+         <string>v1.0.2</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
         </property>
        </widget>
       </item>
@@ -260,7 +263,7 @@ QTabBar::tab {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>858</width>
+     <width>859</width>
      <height>21</height>
     </rect>
    </property>
