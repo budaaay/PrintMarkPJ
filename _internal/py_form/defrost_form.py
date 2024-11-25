@@ -37,6 +37,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         self.label_name.setFont(font)
         self.label_name.setAlignment(QtCore.Qt.AlignCenter)
+        self.label_name.setWordWrap(True)
         self.label_name.setObjectName("label_name")
         self.label_temp1 = QtWidgets.QLabel(Dialog)
         self.label_temp1.setGeometry(QtCore.QRect(110, 80, 61, 21))
